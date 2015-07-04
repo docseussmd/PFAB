@@ -1,0 +1,27 @@
+import math
+
+first = "Anthony"
+last = "Michaels"
+age = "28"
+
+print first , last , age
+
+a = 12.55
+b = 17.85
+
+c_squared = (a**2) + (b**2)
+
+c = c_squared**0.5
+
+print a , b , c
+
+operand1 = 95
+operand2  = 64.55
+
+print operand1 + operand2
+print operand1 - operand2
+print operand1 * operand2
+print operand1 / operand2
+print operand1 % operand2
+
+#The only part of the program that would have to change if the value of either operand were to change, would be the value of the operand that changed. Everything else would remain the same.
